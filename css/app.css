@@ -1,0 +1,25 @@
+h2 {
+    color: orangered;
+    font-weight: normal;
+    letter-spacing: 10px;
+    text-decoration: skyblue underline wavy;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+button {
+    color: teal;
+    background-color: mediumaquamarine;
+}
+
+p {
+    color: olive;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+a{
+    text-decoration: none;
+}
