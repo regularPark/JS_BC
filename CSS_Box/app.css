@@ -1,0 +1,59 @@
+html {
+    font-size: 30px;
+}
+
+div{
+    width:400px;
+}
+
+#one {
+    background-color: peachpuff;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+}
+
+#two{
+    background-color: palevioletred;
+    border-style: dashed solid ridge;
+    border-width: 10px;
+    border-left-width: 1px;
+}
+
+#three {
+    background-color: plum;
+    border: 4px dotted blue; /* width / style / color */
+    border-left-style: double;
+    border-radius: 10% / 50%;
+    padding: 5px 0 10px 20px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+article {
+    font-size: 20px;
+}
+
+section {
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+    padding: 10px;
+}
+#me {
+    width: 50%;
+    height: 50%;
+    background-color: darkturquoise;
+}
+button {
+    border-radius: 0.5em;
+    padding: 0 1em;
+    background-color: turquoise;
+    color: white;
+    font-size: 1rem;
+}
+ul {
+    font-size: 1.5em; /* em은 단계별 중첩됨 */
+}
