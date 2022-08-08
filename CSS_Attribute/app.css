@@ -1,0 +1,46 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    border: 2px solid black;
+    display: inline-block;
+}
+#mid {
+    background-color: turquoise;
+}
+#static {
+    position:static;
+    top:100px;
+}
+
+#static #mid {
+    position: static;
+    top: 100px;
+}
+
+#relative #mid {
+    position: relative;
+    top: 50px;
+    left:50px;
+}
+
+#absolute {
+    position:relative; /* 초기 컨테이너 블록이 아닌 앱솔루트 기존으로 이동 */
+}
+
+#absolute #mid{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+#fixed {
+    position: relative;
+}
+
+#fixed #mid {
+    position:fixed;
+    top: 50px;
+    left: 50px;
+}
