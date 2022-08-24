@@ -101,5 +101,31 @@ const person = {
     // 왜 출력이 다른가? 화살표 함수는 정규식 표현과는 this를 사용할 때 다른 결과를 가져온다.
 }
 
-person.fullName()
-person.shoutName()
+// person.fullName()
+// person.shoutName()
+
+console.log(...numbers)
+console.log(...'numbers')
+
+const newNums = [...numbers, ...fullNames]
+// console.log(newNums)
+
+let name = 'park'
+
+const names = [...name] // [ 'p', 'a', 'r', 'k' ]
+console.log(names) // 생각했던 대로 배열에 나누어져 담겨 출력되긴 함. 취소선이 왜 생기는지?
+
+const cat = {
+    name: 'meow',
+    weight: 3
+}
+
+const catDog = {
+    ...cat,
+    color: 'gray'
+} // { name: 'meow', weight: 3, color: 'gray' }
+
+console.log(catDog)
+console.log({
+    ...[1, 2, 3, 4]
+}) // { '0': 1, '1': 2, '2': 3, '3': 4 }
